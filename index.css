@@ -1,0 +1,112 @@
+/*
+arrumar espaçamentos
+*/
+
+body{
+    background-color: black;
+    font-family: 'Montserrat';
+    padding-top:56px;
+    padding: 60px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    box-sizing: border-box;
+    z-index: 1000;
+    background: transparent;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    flex-direction: row;
+    gap: 43px;
+    margin: 20px;
+}
+
+#botao-principal{
+    background-color: #7fffd488;
+}
+
+button{
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 24px;
+    border: 2px solid #7fffd455;
+    border-radius: 60px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+h1, p, a{
+    color: #fff;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500px;
+}
+
+h1{
+    font-weight: 1000px;
+    font-size: 55px;
+    margin: 12px;
+}
+
+h2{
+    color: #ccc;
+    font-size: 36px;
+    margin: 12px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 18px;
+}
+
+#aviso{
+    margin-top: 50px;
+    background-color: #7fffd444;
+    padding: 8px 21px;
+    border-radius: 20px;
+    border-color: #ccc;
+    border: 2px solid #7fffd455;
+}
+
+strong{
+    color: aquamarine;
+}
+
+#logo{
+    color: aquamarine;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'montserrat';
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 8px;
+    font-weight: light;
+}
+
+nav a:hover{
+    color: #7fffd4;
+}
