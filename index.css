@@ -1,5 +1,5 @@
 /*
-arrumar espaçamentos
+
 */
 
 body{
@@ -20,7 +20,8 @@ header{
     padding: 0px 60px;
     box-sizing: border-box;
     z-index: 1000;
-    background: transparent;
+    background: #0001;
+    backdrop-filter: blur(6px);
 }
 
 div{
@@ -103,10 +104,34 @@ nav{
 nav a{
     color: #fff;
     text-decoration: none;
-    padding: 6px 8px;
+    padding: 0px 8px;
     font-weight: light;
 }
 
 nav a:hover{
     color: #7fffd4;
+}
+
+#sobre {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  gap: 60px;          
+  width: 100%;        
+}
+
+#sobre img {
+  width: 450px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+#sobre div {
+    
+  flex-grow: 1;        
+  
+}
+
+.sobre1{
+    display: grid;
 }
